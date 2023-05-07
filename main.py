@@ -144,13 +144,13 @@ def doing_some_math():
 
 
 #------------LETS START WITH THE ACTUAL WORK! :)-------------------
-recognize_from_microphone()
-print("Lets start with the Pre-Processing!")
-pre_processing()
-add_speech_to_json(speechdata, masterjson)
-print("Unserinput added to masterjson")
-talk_to_chatgpt(masterjson)
-add_answ_chatgpt_masterjson(answ_chatgpt)
-print("CGPTinput added to masterjson")
-tkinter.messagebox.askquestion(title=None, message=answ_chatgpt)
-#doing_some_math()
+#recognize_from_microphone()
+#print("Lets start with the Pre-Processing!")
+#pre_processing()
+#add_speech_to_json(speechdata, masterjson)
+#print("Unserinput added to masterjson")
+#talk_to_chatgpt(masterjson)
+#add_answ_chatgpt_masterjson(answ_chatgpt)
+#print("CGPTinput added to masterjson")
+#tkinter.messagebox.askquestion(title=None, message=answ_chatgpt)
+doing_some_math()
